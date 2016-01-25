@@ -15,8 +15,7 @@ from setuptools import setup
 __version__ = '0.10.2'
 
 setup(name='nfc', version=__version__,
-      packages = ['nfc'],
-      package_dir = {'nfc': 'nfc'},
+      packages = ['nfc','nfc.clf','nfc.handover','nfc.llcp','nfc.ndef','nfc.snep','nfc.tag'],
       description = 'Python NFC libraries',
       url = 'https://launchpad.net/nfcpy',
       install_requires=["pyusb>=1.0.0b2"],
